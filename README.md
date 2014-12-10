@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    compile 'com.facebook.android:facebook-android-sdk:3.20.+'
     compile 'com.infstory:parse:+'
 }
 ```
