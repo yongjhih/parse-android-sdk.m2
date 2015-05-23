@@ -12,7 +12,9 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.android:facebook-android-sdk:3.20.+'
     compile 'com.infstory:parse:+'
+    compile 'com.infstory:parse-crash-reporting:+'
+    compile 'com.infstory:parse-facebook-v3:+' // compile 'com.facebook.android:facebook-android-sdk:3.20.0'
+    compile 'com.infstory:parse-facebook-v4:+' // compile 'com.facebook.android:facebook-android-sdk:4.1.2'
 }
 ```
